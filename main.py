@@ -50,6 +50,7 @@ def main():
 
     # 切换页面
     browser.get(target_url)
+    browser.close()
 
 if __name__ == '__main__':
     main()
